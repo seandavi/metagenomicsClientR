@@ -46,3 +46,22 @@ df = bind_rows(hit_list)
 ```{r}
 glimpse(df)
 ```
+
+# Models
+
+```{r}
+class(qres)
+```
+
+```{r}
+class(qres$hits[[1]])
+```
+
+```{r}
+StorageEventReturn
+```
+
+```{r}
+StorageEventCollection
+```
+
